@@ -31,6 +31,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+/android/build/
 /coverage/
 
 # Symbolication related
@@ -43,3 +44,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local Firebase configuration contains project API keys.
+/android/app/google-services.json
+/lib/firebase_options.dart
+
+# Local editor and diagnostic artifacts.
+/lib/localhost_3000.code-search
+/lib/## GitHub Copilot Chat.md
